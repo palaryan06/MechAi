@@ -1,0 +1,29 @@
+Proprietary License (TBD)
+
+Copyright (c) 2026 MechAI, Inc.
+
+ALL RIGHTS RESERVED.
+
+This software and associated documentation files (the "Software") are the
+proprietary and confidential information of MechAI, Inc. and its licensors.
+
+The Software is provided for internal development purposes ONLY. You may
+access, view, and use the Software solely in connection with your authorized
+work on the MechAI project.
+
+You MAY NOT, without the prior written permission of MechAI, Inc.:
+
+1. Copy, modify, distribute, sublicense, or sell the Software, in whole or in part.
+2. Use the Software to build a competing product or service.
+3. Reverse engineer, decompile, or disassemble the Software.
+4. Remove or alter any proprietary notices or labels on the Software.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+THE LICENSE TERMS FOR THIS SOFTWARE ARE SUBJECT TO CHANGE. Before releasing
+this software publicly, the MechAI team will finalize an open-source or
+proprietary license via an Architectural Decision Record (see docs/adr/).
+
+For license inquiries, contact: legal@mechai.example.com

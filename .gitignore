@@ -1,0 +1,99 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+pip-wheel-metadata/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Node / Frontend (future) ────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+.next/
+out/
+dist-web/
+
+# ─── Data & Models (never commit large artifacts) ────────
+*.parquet
+*.arrow
+*.onnx
+*.pt
+*.pth
+*.bin
+*.index
+*.faiss
+*.hnsw
+data/*.db
+data/*.sqlite*
+models/
+embeddings/
+vector-store/
+
+# ─── Secrets & Config ────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+secrets/
+credentials/
+service-account*.json
+
+# ─── Agent Memory (never commit local agent state) ───────
+.memory/
+!memory/README.md
+
+# ─── Experiments (scratch, not committed by default) ─────
+experiments/*/artifacts/
+experiments/*/output/
+experiments/*/*.log
+
+# ─── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+log/
+
+# ─── IDE & Editor ────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── OS ───────────────────────────────────────────────────
+.DS_Store
+desktop.ini
+
+# ─── Docker ───────────────────────────────────────────────
+docker-compose.override.yml
+*.pid
+*.seed
+
+# ─── Docs build artifacts ────────────────────────────────
+docs/_build/
+site/
