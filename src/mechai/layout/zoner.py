@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import math
 import re
+import uuid
 from typing import TYPE_CHECKING
 
 from mechai.contracts.layout import (

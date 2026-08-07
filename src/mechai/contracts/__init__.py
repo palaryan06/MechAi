@@ -104,11 +104,33 @@ from mechai.contracts.stages import (
     TorqueExtractorProtocol,
     WarningDetectorProtocol,
 )
+from mechai.contracts.tables import (
+    AutomotiveTable,
+    AutomotiveTableCell,
+    AutomotiveTableEngineProtocol,
+    AutomotiveTableFootnote,
+    AutomotiveTableHeader,
+    AutomotiveTableRow,
+    AutomotiveTableSet,
+    AutomotiveTableType,
+    CellAlignment,
+    CellType,
+)
 
 __all__ = [
     "AgenticChunkerProtocol",
     "AlternativeReadingPath",
+    "AutomotiveTable",
+    "AutomotiveTableCell",
+    "AutomotiveTableEngineProtocol",
+    "AutomotiveTableFootnote",
+    "AutomotiveTableHeader",
+    "AutomotiveTableRow",
+    "AutomotiveTableSet",
+    "AutomotiveTableType",
     "BoundingBox",
+    "CellAlignment",
+    "CellType",
     "ChunkEmbedding",
     "ColumnGutter",
     "DiagnosticCodeExtractorProtocol",

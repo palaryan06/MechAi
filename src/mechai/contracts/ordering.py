@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from collections.abc import Iterator
 from enum import StrEnum
+import heapq
 from typing import Annotated, Protocol, runtime_checkable
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -154,22 +155,23 @@ class ReadingOrderGraph(BaseModel):
                 adj[edge.source_id].append(edge.target_id)
                 in_degree[edge.target_id] += 1
 
-        # Stable sort prioritizing primary path order
+        # Stable sort prioritizing primary path order via min-heap
         order_map = {nid: idx for idx, nid in enumerate(self.primary_path)}
-        queue = sorted(
-            [nid for nid, deg in in_degree.items() if deg == 0],
-            key=lambda nid: order_map.get(nid, 999999),
-        )
+        heap: list[tuple[int, str]] = [
+            (order_map.get(nid, 999999), nid)
+            for nid, deg in in_degree.items()
+            if deg == 0
+        ]
+        heapq.heapify(heap)
         result: list[str] = []
 
-        while queue:
-            curr = queue.pop(0)
+        while heap:
+            _, curr = heapq.heappop(heap)
             result.append(curr)
             for neighbor in adj.get(curr, []):
                 in_degree[neighbor] -= 1
                 if in_degree[neighbor] == 0:
-                    queue.append(neighbor)
-            queue.sort(key=lambda nid: order_map.get(nid, 999999))
+                    heapq.heappush(heap, (order_map.get(neighbor, 999999), neighbor))
 
         return result
 
