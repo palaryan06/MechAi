@@ -104,6 +104,18 @@ from mechai.contracts.stages import (
     TorqueExtractorProtocol,
     WarningDetectorProtocol,
 )
+from mechai.contracts.procedures import (
+    AdmonitionType,
+    AutomotiveProcedure,
+    AutomotiveProcedureEngineProtocol,
+    AutomotiveProcedureSet,
+    BoundAdmonition,
+    ProcedureCategory,
+    ProcedureStep,
+    RequiredMaterial,
+    RequiredTool,
+    StepNumberingStyle,
+)
 from mechai.contracts.tables import (
     AutomotiveTable,
     AutomotiveTableCell,
@@ -118,8 +130,12 @@ from mechai.contracts.tables import (
 )
 
 __all__ = [
+    "AdmonitionType",
     "AgenticChunkerProtocol",
     "AlternativeReadingPath",
+    "AutomotiveProcedure",
+    "AutomotiveProcedureEngineProtocol",
+    "AutomotiveProcedureSet",
     "AutomotiveTable",
     "AutomotiveTableCell",
     "AutomotiveTableEngineProtocol",
@@ -128,6 +144,7 @@ __all__ = [
     "AutomotiveTableRow",
     "AutomotiveTableSet",
     "AutomotiveTableType",
+    "BoundAdmonition",
     "BoundingBox",
     "CellAlignment",
     "CellType",
@@ -192,7 +209,9 @@ __all__ = [
     "PdfParserProtocol",
     "PipelineResult",
     "PipelineStageOutputs",
+    "ProcedureCategory",
     "ProcedureDetectorProtocol",
+    "ProcedureStep",
     "ReadingFlowType",
     "ReadingOrderEdge",
     "ReadingOrderEngineProtocol",
@@ -200,9 +219,12 @@ __all__ = [
     "ReadingOrderGraph",
     "ReadingOrderNode",
     "RegionType",
+    "RequiredMaterial",
+    "RequiredTool",
     "SemanticChunk",
     "SemanticChunkSet",
     "SourceRef",
+    "StepNumberingStyle",
     "TableExtractorProtocol",
     "TableOfContents",
     "TocEntry",
