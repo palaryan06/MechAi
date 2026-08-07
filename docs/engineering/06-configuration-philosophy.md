@@ -80,6 +80,7 @@ MECHAI_MODEL_PROVIDER=openai
 # src/mechai/common/config.py
 import os
 
+
 class Config:
     def __init__(self) -> None:
         self.db_host = self._require("MECHAI_DB_HOST")

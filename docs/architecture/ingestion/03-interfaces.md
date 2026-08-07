@@ -263,8 +263,9 @@ class KnowledgeGraphGeneratorProtocol(Protocol):
 class AgenticChunkerProtocol(Protocol):
     """Stage 15: Segment the document into agentic chunks."""
 
-    def chunk(self, document: ParsedDocument, headings: HeadingTree,
-              procedures: ProcedureSet) -> ChunkSet:
+    def chunk(
+        self, document: ParsedDocument, headings: HeadingTree, procedures: ProcedureSet
+    ) -> ChunkSet:
         """Segment the document into semantic chunks.
 
         Args:

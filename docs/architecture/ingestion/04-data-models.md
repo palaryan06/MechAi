@@ -113,7 +113,6 @@ class ParsedDocument(BaseModel):
     pages: list[Page]
     source_path: str | None = None
 
-
     @property
     def total_pages(self) -> int:
         """Return the number of pages."""

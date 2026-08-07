@@ -62,9 +62,11 @@ This document defines **how we test** in MechAI. It exists because testing is ho
 ```python
 # tests/mechai/ingestion/test_obd_parser.py
 
+
 def test_decode_valid_frame_returns_value():
-    result = decode_frame(b"\x41\x0C\x33\x34")
+    result = decode_frame(b"\x41\x0c\x33\x34")
     assert result == 820
+
 
 def test_decode_malformed_frame_raises():
     with pytest.raises(DocumentParseError):

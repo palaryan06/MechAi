@@ -1,35 +1,39 @@
 # Tests
 
-## Why This Folder Exists
+## Purpose
 
-This folder is the **future home of MechAI's test suite**. It exists as a placeholder to establish the structure before product code arrives.
+This directory contains the automated test suite for MechAI.
 
-**The repository is intentionally foundation-only.** No product code or tests exist yet. This folder is reserved for when the Python project is scaffolded (Phase 0/1).
-
-## When Tests Arrive
-
-When the Python project is scaffolded, tests will live here, mirroring the `src/` structure:
+## Test Structure
 
 ```
 tests/
-├── mechai/
-│   ├── ingestion/
-│   ├── knowledge/
-│   ├── reasoning/
-│   └── common/
+├── __init__.py           # Test package marker
+├── conftest.py           # Shared fixtures (env isolation, cache resets)
+├── test_cli.py           # CLI and entry point tests
+├── test_config.py        # Configuration loading and validation tests
+├── test_exceptions.py    # Custom exception hierarchy tests
+├── test_logging.py       # Structured logging setup tests
+└── test_version.py       # Version format and export tests
 ```
 
-Tests follow the [Testing Philosophy](../docs/engineering/05-testing-philosophy.md).
+## Running Tests
 
-## Rules
+Run all unit tests with coverage:
 
-- **Do not create tests here yet.** The Python project has not been scaffolded.
-- **Use `experiments/` for prototypes** until the project is scaffolded.
-- **Follow the [Testing Philosophy](../docs/engineering/05-testing-philosophy.md)** when tests arrive.
-- **Never use real customer data or VINs in tests.** Use synthetic data.
+```bash
+python -m pytest tests/ -v --cov=mechai --cov-report=term-missing
+```
 
-## Related Documents
+Run specific test files:
 
-- [Testing Philosophy](../docs/engineering/05-testing-philosophy.md)
-- [Coding Standards](../docs/engineering/03-coding-standards.md)
-- [Repository Guide](../docs/architecture/02-repository-guide.md)
+```bash
+python -m pytest tests/test_config.py -v
+python -m pytest tests/test_cli.py -v
+```
+
+## Testing Rules
+
+1. **Test behavior, not implementation.** (See [`docs/engineering/05-testing-philosophy.md`](../docs/engineering/05-testing-philosophy.md)).
+2. **Never use real customer data or real vehicle VINs in tests.** Use synthetic data.
+3. **Keep tests isolated and fast.** Use fixtures in `conftest.py` for isolation.

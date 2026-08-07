@@ -1,0 +1,567 @@
+{
+  "document_id": "layout_doc_102679",
+  "source_path": "C:\\Users\\palar\\PycharmProjects\\MechAi\\tests\\fixtures\\sample_manual.pdf",
+  "total_pages": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "margins": {
+        "left": 50.0,
+        "top": 50.65,
+        "right": 60.94,
+        "bottom": 72.0
+      },
+      "header_zone": null,
+      "footer_zone": null,
+      "columns": [],
+      "regions": [
+        {
+          "id": "reg_p1_001",
+          "bbox": {
+            "left": 50.0,
+            "top": 50.650001525878906,
+            "right": 408.0560302734375,
+            "bottom": 75.38200378417969
+          },
+          "page_number": 1,
+          "region_type": "Title",
+          "confidence": 0.94,
+          "provenance": {
+            "page_number": 1,
+            "extraction_method": "rule",
+            "confidence": 0.94,
+            "bbox": {
+              "left": 50.0,
+              "top": 50.650001525878906,
+              "right": 408.0560302734375,
+              "bottom": 75.38200378417969
+            }
+          },
+          "text": "MECHAI AUTOMOTIVE SERVICE MANUAL",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p1_002",
+          "bbox": {
+            "left": 50.0,
+            "top": 94.94999694824219,
+            "right": 269.43597412109375,
+            "bottom": 114.18599700927734
+          },
+          "page_number": 1,
+          "region_type": "Heading",
+          "confidence": 0.91,
+          "provenance": {
+            "page_number": 1,
+            "extraction_method": "rule",
+            "confidence": 0.91,
+            "bbox": {
+              "left": 50.0,
+              "top": 94.94999694824219,
+              "right": 269.43597412109375,
+              "bottom": 114.18599700927734
+            }
+          },
+          "text": "Section 11: Engine Cooling System",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p1_003",
+          "bbox": {
+            "left": 50.0,
+            "top": 138.1750030517578,
+            "right": 551.0601196289062,
+            "bottom": 192.38702392578125
+          },
+          "page_number": 1,
+          "region_type": "Paragraph",
+          "confidence": 0.89,
+          "provenance": {
+            "page_number": 1,
+            "extraction_method": "rule",
+            "confidence": 0.89,
+            "bbox": {
+              "left": 50.0,
+              "top": 138.1750030517578,
+              "right": 551.0601196289062,
+              "bottom": 192.38702392578125
+            }
+          },
+          "text": "General Description and Operating Principles:\nThe cooling system maintains engine operating temperature within the optimal range of 88C to 95C. A wax-pellet thermostat\nregulates coolant flow through the radiator.",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p1_004",
+          "bbox": {
+            "left": 50.0,
+            "top": 229.25,
+            "right": 300.09994506835943,
+            "bottom": 272.989990234375
+          },
+          "page_number": 1,
+          "region_type": "WarningBox",
+          "confidence": 0.95,
+          "provenance": {
+            "page_number": 1,
+            "extraction_method": "rule",
+            "confidence": 0.95,
+            "bbox": {
+              "left": 50.0,
+              "top": 229.25,
+              "right": 300.09994506835943,
+              "bottom": 272.989990234375
+            }
+          },
+          "text": "WARNING: Never open radiator cap when engine is hot.\nThermostat Housing Bolt Torque: 12 Nm (106 in-lb).",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 612.0,
+      "height": 792.0,
+      "margins": {
+        "left": 50.0,
+        "top": 54.95,
+        "right": 72.0,
+        "bottom": 72.0
+      },
+      "header_zone": null,
+      "footer_zone": null,
+      "columns": [],
+      "regions": [
+        {
+          "id": "reg_p2_001",
+          "bbox": {
+            "left": 50.0,
+            "top": 54.94999694824219,
+            "right": 275.6379699707031,
+            "bottom": 74.18599700927734
+          },
+          "page_number": 2,
+          "region_type": "Heading",
+          "confidence": 0.91,
+          "provenance": {
+            "page_number": 2,
+            "extraction_method": "rule",
+            "confidence": 0.91,
+            "bbox": {
+              "left": 50.0,
+              "top": 54.94999694824219,
+              "right": 275.6379699707031,
+              "bottom": 74.18599700927734
+            }
+          },
+          "text": "Thermostat Replacement Procedure",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p2_002",
+          "bbox": {
+            "left": 50.0,
+            "top": 95.00003051757812,
+            "right": 288.8699951171875,
+            "bottom": 178.5750732421875
+          },
+          "page_number": 2,
+          "region_type": "List",
+          "confidence": 0.93,
+          "provenance": {
+            "page_number": 2,
+            "extraction_method": "rule",
+            "confidence": 0.93,
+            "bbox": {
+              "left": 50.0,
+              "top": 95.00003051757812,
+              "right": 288.8699951171875,
+              "bottom": 178.5750732421875
+            }
+          },
+          "text": "1. Disconnect negative battery cable.\n2. Drain engine coolant into a clean container.\n3. Disconnect radiator upper hose from water outlet.\n4. Remove water outlet fitting bolts and remove thermostat.\n5. Install new thermostat with jiggle valve facing upward.\n6. Tighten mounting bolts to specified torque (12 Nm).",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p2_003",
+          "bbox": {
+            "left": 50.0,
+            "top": 230.0,
+            "right": 170.0,
+            "bottom": 310.0
+          },
+          "page_number": 2,
+          "region_type": "FigureRegion",
+          "confidence": 0.95,
+          "provenance": {
+            "page_number": 2,
+            "extraction_method": "rule",
+            "confidence": 0.95,
+            "bbox": {
+              "left": 50.0,
+              "top": 230.0,
+              "right": 170.0,
+              "bottom": 310.0
+            }
+          },
+          "text": "",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p2_004",
+          "bbox": {
+            "left": 50.0,
+            "top": 315.32501220703125,
+            "right": 303.0980224609375,
+            "bottom": 327.6910095214844
+          },
+          "page_number": 2,
+          "region_type": "Caption",
+          "confidence": 0.92,
+          "provenance": {
+            "page_number": 2,
+            "extraction_method": "rule",
+            "confidence": 0.92,
+            "bbox": {
+              "left": 50.0,
+              "top": 315.32501220703125,
+              "right": 303.0980224609375,
+              "bottom": 327.6910095214844
+            }
+          },
+          "text": "Figure 11-1: Thermostat Assembly and Jiggle Valve Orientation",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p2_005",
+          "bbox": {
+            "left": 50.0,
+            "top": 348.17498779296875,
+            "right": 271.2979736328125,
+            "bottom": 363.28900146484375
+          },
+          "page_number": 2,
+          "region_type": "Paragraph",
+          "confidence": 0.89,
+          "provenance": {
+            "page_number": 2,
+            "extraction_method": "rule",
+            "confidence": 0.89,
+            "bbox": {
+              "left": 50.0,
+              "top": 348.17498779296875,
+              "right": 271.2979736328125,
+              "bottom": 363.28900146484375
+            }
+          },
+          "text": "Cooling System Service Specifications Table:",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        },
+        {
+          "id": "reg_p2_006",
+          "bbox": {
+            "left": 50.0,
+            "top": 375.0,
+            "right": 373.999755859375,
+            "bottom": 428.1474304199219
+          },
+          "page_number": 2,
+          "region_type": "TableRegion",
+          "confidence": 0.88,
+          "provenance": {
+            "page_number": 2,
+            "extraction_method": "rule",
+            "confidence": 0.88,
+            "bbox": {
+              "left": 50.0,
+              "top": 375.0,
+              "right": 373.999755859375,
+              "bottom": 428.1474304199219
+            }
+          },
+          "text": "Item | Specification | Limit\n----------------------------+---------------+---------------\nThermostat Opening Valve | 82 C (180 F) | 80 - 84 C\nThermostat Full Open Lift | 8.5 mm or more| Min 8.0 mm\nRadiator Cap Relief Pressure| 108 kPa | 93 - 123 kPa",
+          "reading_zone_id": "zone_body_span",
+          "column_index": null
+        }
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "reg_p1_001",
+      "bbox": {
+        "left": 50.0,
+        "top": 50.650001525878906,
+        "right": 408.0560302734375,
+        "bottom": 75.38200378417969
+      },
+      "page_number": 1,
+      "region_type": "Title",
+      "confidence": 0.94,
+      "provenance": {
+        "page_number": 1,
+        "extraction_method": "rule",
+        "confidence": 0.94,
+        "bbox": {
+          "left": 50.0,
+          "top": 50.650001525878906,
+          "right": 408.0560302734375,
+          "bottom": 75.38200378417969
+        }
+      },
+      "text": "MECHAI AUTOMOTIVE SERVICE MANUAL",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p1_002",
+      "bbox": {
+        "left": 50.0,
+        "top": 94.94999694824219,
+        "right": 269.43597412109375,
+        "bottom": 114.18599700927734
+      },
+      "page_number": 1,
+      "region_type": "Heading",
+      "confidence": 0.91,
+      "provenance": {
+        "page_number": 1,
+        "extraction_method": "rule",
+        "confidence": 0.91,
+        "bbox": {
+          "left": 50.0,
+          "top": 94.94999694824219,
+          "right": 269.43597412109375,
+          "bottom": 114.18599700927734
+        }
+      },
+      "text": "Section 11: Engine Cooling System",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p1_003",
+      "bbox": {
+        "left": 50.0,
+        "top": 138.1750030517578,
+        "right": 551.0601196289062,
+        "bottom": 192.38702392578125
+      },
+      "page_number": 1,
+      "region_type": "Paragraph",
+      "confidence": 0.89,
+      "provenance": {
+        "page_number": 1,
+        "extraction_method": "rule",
+        "confidence": 0.89,
+        "bbox": {
+          "left": 50.0,
+          "top": 138.1750030517578,
+          "right": 551.0601196289062,
+          "bottom": 192.38702392578125
+        }
+      },
+      "text": "General Description and Operating Principles:\nThe cooling system maintains engine operating temperature within the optimal range of 88C to 95C. A wax-pellet thermostat\nregulates coolant flow through the radiator.",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p1_004",
+      "bbox": {
+        "left": 50.0,
+        "top": 229.25,
+        "right": 300.09994506835943,
+        "bottom": 272.989990234375
+      },
+      "page_number": 1,
+      "region_type": "WarningBox",
+      "confidence": 0.95,
+      "provenance": {
+        "page_number": 1,
+        "extraction_method": "rule",
+        "confidence": 0.95,
+        "bbox": {
+          "left": 50.0,
+          "top": 229.25,
+          "right": 300.09994506835943,
+          "bottom": 272.989990234375
+        }
+      },
+      "text": "WARNING: Never open radiator cap when engine is hot.\nThermostat Housing Bolt Torque: 12 Nm (106 in-lb).",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p2_001",
+      "bbox": {
+        "left": 50.0,
+        "top": 54.94999694824219,
+        "right": 275.6379699707031,
+        "bottom": 74.18599700927734
+      },
+      "page_number": 2,
+      "region_type": "Heading",
+      "confidence": 0.91,
+      "provenance": {
+        "page_number": 2,
+        "extraction_method": "rule",
+        "confidence": 0.91,
+        "bbox": {
+          "left": 50.0,
+          "top": 54.94999694824219,
+          "right": 275.6379699707031,
+          "bottom": 74.18599700927734
+        }
+      },
+      "text": "Thermostat Replacement Procedure",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p2_002",
+      "bbox": {
+        "left": 50.0,
+        "top": 95.00003051757812,
+        "right": 288.8699951171875,
+        "bottom": 178.5750732421875
+      },
+      "page_number": 2,
+      "region_type": "List",
+      "confidence": 0.93,
+      "provenance": {
+        "page_number": 2,
+        "extraction_method": "rule",
+        "confidence": 0.93,
+        "bbox": {
+          "left": 50.0,
+          "top": 95.00003051757812,
+          "right": 288.8699951171875,
+          "bottom": 178.5750732421875
+        }
+      },
+      "text": "1. Disconnect negative battery cable.\n2. Drain engine coolant into a clean container.\n3. Disconnect radiator upper hose from water outlet.\n4. Remove water outlet fitting bolts and remove thermostat.\n5. Install new thermostat with jiggle valve facing upward.\n6. Tighten mounting bolts to specified torque (12 Nm).",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p2_003",
+      "bbox": {
+        "left": 50.0,
+        "top": 230.0,
+        "right": 170.0,
+        "bottom": 310.0
+      },
+      "page_number": 2,
+      "region_type": "FigureRegion",
+      "confidence": 0.95,
+      "provenance": {
+        "page_number": 2,
+        "extraction_method": "rule",
+        "confidence": 0.95,
+        "bbox": {
+          "left": 50.0,
+          "top": 230.0,
+          "right": 170.0,
+          "bottom": 310.0
+        }
+      },
+      "text": "",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p2_004",
+      "bbox": {
+        "left": 50.0,
+        "top": 315.32501220703125,
+        "right": 303.0980224609375,
+        "bottom": 327.6910095214844
+      },
+      "page_number": 2,
+      "region_type": "Caption",
+      "confidence": 0.92,
+      "provenance": {
+        "page_number": 2,
+        "extraction_method": "rule",
+        "confidence": 0.92,
+        "bbox": {
+          "left": 50.0,
+          "top": 315.32501220703125,
+          "right": 303.0980224609375,
+          "bottom": 327.6910095214844
+        }
+      },
+      "text": "Figure 11-1: Thermostat Assembly and Jiggle Valve Orientation",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p2_005",
+      "bbox": {
+        "left": 50.0,
+        "top": 348.17498779296875,
+        "right": 271.2979736328125,
+        "bottom": 363.28900146484375
+      },
+      "page_number": 2,
+      "region_type": "Paragraph",
+      "confidence": 0.89,
+      "provenance": {
+        "page_number": 2,
+        "extraction_method": "rule",
+        "confidence": 0.89,
+        "bbox": {
+          "left": 50.0,
+          "top": 348.17498779296875,
+          "right": 271.2979736328125,
+          "bottom": 363.28900146484375
+        }
+      },
+      "text": "Cooling System Service Specifications Table:",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    },
+    {
+      "id": "reg_p2_006",
+      "bbox": {
+        "left": 50.0,
+        "top": 375.0,
+        "right": 373.999755859375,
+        "bottom": 428.1474304199219
+      },
+      "page_number": 2,
+      "region_type": "TableRegion",
+      "confidence": 0.88,
+      "provenance": {
+        "page_number": 2,
+        "extraction_method": "rule",
+        "confidence": 0.88,
+        "bbox": {
+          "left": 50.0,
+          "top": 375.0,
+          "right": 373.999755859375,
+          "bottom": 428.1474304199219
+        }
+      },
+      "text": "Item | Specification | Limit\n----------------------------+---------------+---------------\nThermostat Opening Valve | 82 C (180 F) | 80 - 84 C\nThermostat Full Open Lift | 8.5 mm or more| Min 8.0 mm\nRadiator Cap Relief Pressure| 108 kPa | 93 - 123 kPa",
+      "reading_zone_id": "zone_body_span",
+      "column_index": null
+    }
+  ],
+  "provenance": {
+    "page_number": 1,
+    "extraction_method": "rule",
+    "confidence": 1.0,
+    "bbox": null
+  }
+}

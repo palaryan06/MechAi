@@ -105,8 +105,8 @@ from typing import TypeAlias
 VehicleId: TypeAlias = str
 DiagnosticCode: TypeAlias = str
 
-def get_dtc(vehicle_id: VehicleId) -> DiagnosticCode | None:
-    ...
+
+def get_dtc(vehicle_id: VehicleId) -> DiagnosticCode | None: ...
 ```
 
 ## Error Handling
@@ -119,6 +119,7 @@ def get_dtc(vehicle_id: VehicleId) -> DiagnosticCode | None:
 ```python
 class IngestionError(Exception):
     """Base error for ingestion failures."""
+
 
 class DocumentParseError(IngestionError):
     """Raised when a document cannot be parsed."""

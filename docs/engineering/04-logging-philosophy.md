@@ -84,6 +84,7 @@ import structlog
 
 logger = structlog.get_logger("mechai.ingestion.obd_parser")
 
+
 def decode_frame(frame: bytes, vehicle_id: str) -> int:
     logger.info("decoding obd frame", vehicle_id=vehicle_id, frame_length=len(frame))
     value = _raw_decode(frame)
