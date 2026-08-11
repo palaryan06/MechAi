@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bench_safe_001",
+    "manual": "Suzuki F8D Workshop Manual",
+    "page": 12,
+    "raw_text": "WARNING: Allow engine to cool before removing the radiator cap. Hot coolant may result in severe burns.",
+    "expected_severity": "WARNING",
+    "expected_hazard": "HOT_SURFACE",
+    "expected_conditions": ["before removing the radiator cap"],
+    "expected_consequences": ["may result in severe burns"],
+    "expected_actions": ["Allow engine to cool"],
+    "expected_requirements": []
+  },
+  {
+    "id": "bench_safe_002",
+    "manual": "Maruti Suzuki K10B Engine Manual",
+    "page": 56,
+    "raw_text": "CAUTION: Do not disconnect battery while engine is running. This will lead to electrical system damage.",
+    "expected_severity": "CAUTION",
+    "expected_hazard": "BATTERY",
+    "expected_conditions": ["while engine is running"],
+    "expected_consequences": ["will lead to electrical system damage"],
+    "expected_actions": ["Do not disconnect battery"],
+    "expected_requirements": []
+  }
+]

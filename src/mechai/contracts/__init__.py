@@ -141,6 +141,20 @@ from mechai.contracts.diagrams import (
     LeaderLine,
 )
 
+from mechai.contracts.safety import (
+    AutomotiveSafetyEngineProtocol,
+    AutomotiveSafetySet,
+    HazardCategory,
+    SafetyAction,
+    SafetyAdmonition,
+    SafetyCondition,
+    SafetyConsequence,
+    SafetyRelationship,
+    SafetyRelationshipType,
+    SafetyRequirement,
+    SafetySeverity,
+)
+
 __all__ = [
     "AdmonitionType",
     "AgenticChunkerProtocol",
@@ -148,6 +162,8 @@ __all__ = [
     "AutomotiveProcedure",
     "AutomotiveProcedureEngineProtocol",
     "AutomotiveProcedureSet",
+    "AutomotiveSafetyEngineProtocol",
+    "AutomotiveSafetySet",
     "AutomotiveDiagram",
     "AutomotiveDiagramEngineProtocol",
     "AutomotiveDiagramSet",
@@ -201,6 +217,7 @@ __all__ = [
     "GeometricLayoutZonerProtocol",
     "GraphEdge",
     "GraphNode",
+    "HazardCategory",
     "HeadingHierarchyBuilderProtocol",
     "HeadingNode",
     "HeadingTree",
@@ -243,6 +260,14 @@ __all__ = [
     "RegionType",
     "RequiredMaterial",
     "RequiredTool",
+    "SafetyAction",
+    "SafetyAdmonition",
+    "SafetyCondition",
+    "SafetyConsequence",
+    "SafetyRelationship",
+    "SafetyRelationshipType",
+    "SafetyRequirement",
+    "SafetySeverity",
     "SemanticChunk",
     "SemanticChunkSet",
     "SourceRef",
