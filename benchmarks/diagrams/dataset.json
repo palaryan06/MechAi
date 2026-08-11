@@ -1,0 +1,28 @@
+[
+  {
+    "id": "bench_diagram_001",
+    "manual": "Suzuki F8D Workshop Manual",
+    "page": 24,
+    "diagram_type": "EXPLODED_VIEW",
+    "figure_identifier": "Fig. 6A-1",
+    "expected_callouts": ["1", "2", "3", "4", "5"],
+    "expected_labels": ["Camshaft", "Intake Valve", "Exhaust Valve"],
+    "expected_relationships": [
+      {
+        "source": "1",
+        "target": "Camshaft",
+        "type": "LABEL_DESCRIBES_COMPONENT"
+      }
+    ]
+  },
+  {
+    "id": "bench_diagram_002",
+    "manual": "Maruti Suzuki K10B Engine Manual",
+    "page": 45,
+    "diagram_type": "WIRING_DIAGRAM",
+    "figure_identifier": "Fig. 4-2",
+    "expected_callouts": [],
+    "expected_labels": ["Main Harness Connector", "Ground Terminal", "Pin 1: 5V Power"],
+    "expected_relationships": []
+  }
+]
