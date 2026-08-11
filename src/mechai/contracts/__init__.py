@@ -155,6 +155,17 @@ from mechai.contracts.safety import (
     SafetySeverity,
 )
 
+from mechai.contracts.specifications import (
+    ApplicabilityContext,
+    AutomotiveSpecificationFact,
+    AutomotiveSpecificationSet,
+    AutomotiveTorqueFact,
+    ConflictCategory,
+    ConflictEdge,
+    SpecificationType,
+    SpecificationValue,
+)
+
 __all__ = [
     "AdmonitionType",
     "AgenticChunkerProtocol",
@@ -168,6 +179,8 @@ __all__ = [
     "AutomotiveDiagramEngineProtocol",
     "AutomotiveDiagramSet",
     "AutomotiveDiagramType",
+    "AutomotiveSpecificationFact",
+    "AutomotiveSpecificationSet",
     "AutomotiveTable",
     "AutomotiveTableCell",
     "AutomotiveTableEngineProtocol",
@@ -176,12 +189,15 @@ __all__ = [
     "AutomotiveTableRow",
     "AutomotiveTableSet",
     "AutomotiveTableType",
+    "AutomotiveTorqueFact",
     "BoundAdmonition",
     "BoundingBox",
     "CellAlignment",
     "CellType",
     "ChunkEmbedding",
     "ColumnGutter",
+    "ConflictCategory",
+    "ConflictEdge",
     "DiagramCallout",
     "DiagramFigure",
     "DiagramLabel",
@@ -271,6 +287,8 @@ __all__ = [
     "SemanticChunk",
     "SemanticChunkSet",
     "SourceRef",
+    "SpecificationType",
+    "SpecificationValue",
     "StepNumberingStyle",
     "TableExtractorProtocol",
     "TableOfContents",
